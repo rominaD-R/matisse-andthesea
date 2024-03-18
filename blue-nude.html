@@ -1,63 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Blue Nude II</title>
-</head>
-<nav>
+  </head>
+  <nav>
     <ul class="nav">
-        <li><a href="home.html">Home</a></li>
-        <li class="active-link"><a>Blue Nude II</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="credits.html">Credits</a></li>
-      </ul> 
-</nav>
-<body>
+      <li><a href="home.html">Home</a></li>
+      <li class="active-link"><a>Blue Nude II</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="credits.html">Credits</a></li>
+    </ul>
+  </nav>
+  <body>
     <div class="flex-col">
-        <h1 class="text-center">Blue Nude II (from the Blue Nude Series)</h1>
-        <img class="bluenude-first-display" src="img/Blue_Nude_II_Matisse.jpg" alt="Blue Nude II by Henri Matisse">
+      <h1 class="text-center">Blue Nude II (from the Blue Nude Series)</h1>
+      <img
+        class="bluenude-first-display"
+        src="img/Blue_Nude_II_Matisse.jpg"
+        alt="Blue Nude II by Henri Matisse"
+      />
+      <p>
+        Henri Matisse (French, 1869–1954).
+        <em> Blue Nude II (Nu bleu II)</em> Spring 1952. Gouache on paper, cut
+        and pasted, on white paper, mounted on canvas. 45 3/4 × 35″ (116.2 ×
+        88.9 cm).
+      </p>
+    </div>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="img/blue_nude_i.jpg"/>
+        <div class="text">Caption Text</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="img/Blue_Nude_II_Matisse.jpg"/>
+        <div class="text">Caption Two</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="img/blue_nude_III.png"/>
+        <div class="text">Caption Three</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="img/blue_nude_IV.jpg"/>
+        <div class="text">Blue Nude IV</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <!-- The dots/circles -->
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
     </div>
     <div class="scroll-cont">
-        <h3>Content will be scrolled through here</h3>
-        <div class="scroll-row">
-            <div class="scroll-item">
-                <p>Around the time Matisse gained stomach cancer, he started doing cutout pieces</p>
-                <img src="img/Henri_Matisse_01.jpg" alt="Henri Matisse cutting out images">
-            </div>
-            <div class="scroll-item">
-                <p>Matisse before was an impressionist artist, such as with his first Blue Nude (1907)</p>
-                <img src="img/1095px-Matisse_Souvenir_de_Biskra.jpg" alt="">
-            </div>
-            <div class="scroll-item">
-                <p>Matisse was also a founder in Fauvism, which prioritized color, especially using color straight out of the tube.</p>
-                <img src="img/Bathers_with_a_turtle.jpg" alt="Henri Matisse cutting out images">
-            </div>
-            <div class="scroll-item">
-                <p>His journey in rejecting the canon European art and more into his "Modern" art, Matisse took inspiration from his African sculpture.</p>
-                <img src="img/African_Sculptures.jpg" alt="Henri Matisse cutting out images">
-            </div>
-            <div class="scroll-item">
-                <p>From his trip to the Tahitian islands in 1930 and his revelation in Islamic art, Matisse was inspired into crating his cut out piece—specifically, the shapes and lineless forms replicated from Polynesian and Islam art. </p>
-                <img src="img/Oceania-the_sky.jpg" alt="Henri Matisse cutting out images">
-            </div>
-            <div class="scroll-item">
-                <p>His process with cutouts started out with painting a big paper canvas with one color, straight out of the tube</p>
-                <img src="img/Image-holder.jpg" alt="Henri Matisse cutting out images">
-            </div>
-            <div class="scroll-item">
-                <p>He then (with the help of his assistants) cut out fluid and organic shapes with scissors</p>
-                <img src="img/Image-holder.jpg" alt="Henri Matisse cutting out images">
-            </div>
-            <div class="scroll-item">
-                <p>With pins, he placed the cut out shapes onto a bigger paper canvas, repeating the process until he was satisfied.</p>
-                <img src="img/Image-holder.jpg" alt="Henri Matisse cutting out images">
-            </div>
+      <h3>The Cutouts of Matisse</h3>
+      <div class="scroll-row">
+        <div class="scroll-item">
+          <p>
+            Around the time Matisse gained stomach cancer, he started doing
+            cutout pieces
+          </p>
+          <img
+            src="img/Henri_Matisse_01.jpg"
+            alt="Henri Matisse cutting out images"
+          />
         </div>
+        <div class="scroll-item">
+          <p>
+            Matisse before was an impressionist artist, such as with his first
+            Blue Nude (1907)
+          </p>
+          <img src="img/1095px-Matisse_Souvenir_de_Biskra.jpg" alt="" />
+        </div>
+        <div class="scroll-item">
+          <p>
+            Matisse was also a founder in Fauvism, which prioritized color,
+            especially using color straight out of the tube.
+          </p>
+          <img
+            src="img/Bathers_with_a_turtle.jpg"
+            alt="Henri Matisse cutting out images"
+          />
+        </div>
+        <div class="scroll-item">
+          <p>
+            His journey in rejecting the canon European art and more into his
+            "Modern" art, Matisse took inspiration from his African sculpture.
+          </p>
+          <img
+            src="img/African_Sculptures.jpg"
+            alt="Henri Matisse cutting out images"
+          />
+        </div>
+        <div class="scroll-item">
+          <p>
+            From his trip to the Tahitian islands in 1930 and his revelation in
+            Islamic art, Matisse was inspired into crating his cut out
+            piece—specifically, the shapes and lineless forms replicated from
+            Polynesian and Islam art.
+          </p>
+          <img
+            src="img/Oceania-the_sky.jpg"
+            alt="Henri Matisse cutting out images"
+          />
+        </div>
+        <div class="scroll-item">
+          <p>
+            His process with cutouts started out with painting a big paper
+            canvas with one color, straight out of the tube
+          </p>
+          <img
+            src="img/painting_paper.gif"
+            alt="Henri Matisse cutting out images"
+          />
+        </div>
+        <div class="scroll-item">
+          <p>
+            He then (with the help of his assistants) cut out fluid and organic
+            shapes with scissors
+          </p>
+          <img
+            src="img/Image-holder.jpg"
+            alt="Henri Matisse cutting out images"
+          />
+        </div>
+        <div class="scroll-item">
+          <p>
+            With pins, he placed the cut out shapes onto a bigger paper canvas,
+            repeating the process until he was satisfied.
+          </p>
+          <img
+            src="img/Image-holder.jpg"
+            alt="Henri Matisse cutting out images"
+          />
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
+
+<script src="js/carasoul.js"></script>
+
