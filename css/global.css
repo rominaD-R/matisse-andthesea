@@ -90,6 +90,19 @@ ul.nav {
     width: 450px;
   }
 
+  .african-sculptures {
+    display: inline-block;
+    width: 400px;
+    height: 498px;
+    background-size: 100%;
+    background: url("../img/African_Sculptures.jpg") no-repeat;
+    transition: all 0.3s;
+  }
+
+  .african-sculptures:hover {
+    background: url("../img/African_forms_02.png") no-repeat;
+  }
+
   .scroll-cont h3 {
    
   }
