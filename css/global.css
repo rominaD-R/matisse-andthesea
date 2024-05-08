@@ -69,10 +69,19 @@ ul.nav {
 
   .scroll-cont {
     height: 700px;
-    background-color: rgb(179, 232, 218);
+    background-color: rgb(168, 237, 175);
     overflow: auto;
     white-space: nowrap;
     padding: 5px 25px;
+    margin-bottom: 12px;
+  }
+
+  .artworks-scroll {
+    background-color: rgb(179, 232, 218);
+  }
+
+  .process-scroll {
+    background-color: rgb(179, 197, 232);
   }
 
   .scroll-row {
